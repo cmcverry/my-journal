@@ -1,0 +1,84 @@
+.user-post {
+    background-color: lightgray;
+    padding: 10px;
+    margin-right:2.5%;
+    margin-top: 10px;
+    border-width:  2px;
+    border-color: black;
+    border-style: solid;
+    list-style-type: none;
+    white-space: pre-wrap;
+}
+
+.user-posts {
+    margin-top: 2.5%;
+}
+
+.user-post-container {
+    position: relative;
+    /* border-radius: 2px;
+    border-color: black;
+    border-style: solid; */
+}
+
+.delete-popup {
+    z-index: 1;
+    width: 15%;
+    background-color: white;
+    border-width:  2px;
+    border-color: black;
+    border-style: solid;
+    position: fixed;
+    left: 0; 
+    /* top: 50px; */
+    right: 0;
+    /* bottom: 10px; */
+    /* top: 20px;  */
+    margin: auto;
+    /* margin-left: auto; 
+    margin-right: auto;  */
+    padding: 50px;
+    color: red;
+
+}
+
+.delete-popup.active {
+    transform: translateY(100px) scale(0) rotateY(180deg);
+    /* opacity: 0; */
+}
+
+/* .edit-form-interior {
+    z-index: 1;
+    position: fixed;
+    justify-content: center;
+} */
+
+.edit-form-box{
+    z-index: 1;
+    position: fixed;
+    width: 50%;
+    left: 0; 
+    right: 0;
+
+    margin: auto;
+
+    background: white;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+
+/* .show-edit-form {
+    display: block;
+    transition: 800ms;
+    opacity: 1;
+} */
+
+.show-edit-form.active-edit-form {
+    transform: translateY(100px) scale(0) rotateY(180deg);
+    /* opacity: 0; */
+}
+

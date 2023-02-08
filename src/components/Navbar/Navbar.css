@@ -1,0 +1,39 @@
+.header {
+    z-index: 2;
+    background-color: lightgrey;
+    top:0;
+    position:sticky;
+    display: flex;
+    border-bottom-style: groove;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    padding-bottom: 4vh;
+}
+
+.header-text {
+    margin-top: 10px;
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 2.5%;
+}
+
+.user-email {
+    position: relative;
+}
+
+.options {
+    list-style-type: none;
+}
+
+button {
+    text-decoration-style: none;
+}

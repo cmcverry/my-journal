@@ -1,0 +1,24 @@
+.signup-form-box{
+    position: absolute;
+    margin-top: 7vh;
+    /* opacity:80%; */
+    background: white;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding-right: 125px;
+    padding-left: 125px;
+    padding-bottom: 50px;
+    /* border-radius: 20px; */
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .signup-form{
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 50vh;
+  }

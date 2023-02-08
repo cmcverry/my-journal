@@ -1,0 +1,16 @@
+CREATE TABLE users (
+  uid VARCHAR(255) PRIMARY KEY NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE posts (
+  pid SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  body VARCHAR NOT NULL,
+  user_id VARCHAR(255) REFERENCES users(uid) NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  date_created TIMESTAMP NOT NULL,
+  edited TIMESTAMP,
+  public BOOLEAN NOT NULL
+);
